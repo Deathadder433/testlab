@@ -61,7 +61,7 @@ ansible-playbook playbook.yaml -i invertory.txt
 ## Outputs
 ### cloud Formation Deployment
 <img src="https://github.com/Deathadder433/testlab/blob/main/steps/cf_output1.png" alt="cf_output">
-<img src="https://github.com/Deathadder433/testlab/blob/main/steps/cf_output2.png" alt="cf_output">
+<img src="https://github.com/Deathadder433/testlab/blob/main/steps/cf_output2.PNG" alt="cf_output">
 
 ### Dynamic Inventory File
 <img src="https://github.com/Deathadder433/testlab/blob/main/steps/dynamic_inventory.png" alt="dynamic_inventory">
