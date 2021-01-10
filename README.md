@@ -60,26 +60,26 @@ ansible-playbook playbook.yaml -i invertory.txt
 
 ## Outputs
 ### cloud Formation Deployment
-<img src="https://github.com/sumanth979/ThoughtWorksLab/blob/main/outputs/cf_output1.png" alt="cf_output">
-<img src="https://github.com/sumanth979/ThoughtWorksLab/blob/main/outputs/cf_output2.png" alt="cf_output">
+<img src="https://github.com/Deathadder433/testlab/blob/main/steps/cf_output1.png" alt="cf_output">
+<img src="https://github.com/Deathadder433/testlab/blob/main/steps/cf_output2.png" alt="cf_output">
 
 ### Dynamic Inventory File
-<img src="https://github.com/sumanth979/ThoughtWorksLab/blob/main/outputs/dynamic_inventory.png" alt="dynamic_inventory">
+<img src="https://github.com/Deathadder433/testlab/blob/main/steps/dynamic_inventory.png" alt="dynamic_inventory">
 
 ### Ansible Output
-<img src="https://github.com/sumanth979/ThoughtWorksLab/blob/main/outputs/ansible1.png" alt="ansible1">
-<img src="https://github.com/sumanth979/ThoughtWorksLab/blob/main/outputs/ansible2.png" alt="ansible2">
+<img src="https://github.com/Deathadder433/testlab/blob/main/steps/ansible1.png" alt="ansible1">
+<img src="https://github.com/Deathadder433/testlab/blob/main/steps/ansible2.png" alt="ansible2">
 
 ## MediaWiki Installation
-<img src="https://github.com/sumanth979/ThoughtWorksLab/blob/main/outputs/output%20from%20lb.png" alt="mediaWiki">
+<img src="https://github.com/Deathadder433/testlab/blob/main/steps/output%20from%20lb.png" alt="mediaWiki">
 
 ## Architecture
 ### Blue Green Mode
-<img src="https://github.com/sumanth979/ThoughtWorksLab/blob/main/outputs/blue-green.png" alt="blue-green">
+<img src="https://github.com/Deathadder433/testlab/blob/main/steps/blue-green.png" alt="blue-green">
 
 ### Rolling Update Mode
 
-<img src="https://github.com/sumanth979/ThoughtWorksLab/blob/main/outputs/rolling.png" alt="rolling">
+<img src="https://github.com/Deathadder433/testlab/blob/main/steps/rolling.png" alt="rolling">
 
 
 
