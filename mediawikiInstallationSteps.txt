@@ -1,0 +1,32 @@
+yum update -y
+yum install -y httpd php php-mysqlnd php-gd php-xml mariadb-server mariadb php-mbstring php-json wget firewalld
+systemctl start httpd.service
+systemctl start mariadb.service
+systemctl enable firewalld
+systemctl start firewalld
+wget https://releases.wikimedia.org/mediawiki/1.24/mediawiki-1.24.2.tar.gz
+tar -xvf mediawiki-1.24.2.tar.gz
+mv mediawiki-1.24.2 /var/www/html/media
+chown -R apache:apache /var/www/html/media/
+chmod 755 /var/www/html/media
+firewall-cmd --permanent --add-port=80/tcp
+firewall-cmd --reload
+iptables-save | grep 80
+getenforce
+restorecon -r /var/www/html/media/
+
+
+systemctl status httpd.service
+systemctl status mariadb.service
+php -v
+
+
+
+mysql -u root -p
+
+create database media_db;
+
+GRANT ALL PRIVILEGES ON media_db.* TO 'linux_user'@'localhost' IDENTIFIED BY 'sys#ad$007' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+
+\q;
