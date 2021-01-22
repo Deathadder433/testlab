@@ -51,14 +51,7 @@ Resources:
         Ref: ELBSecurityGroup ]
       Subnets:
         Ref: Subnets
-      Type: application
-  
-  cretaing DB:
-    Type: 
-    InstanceType:
-    Memory:
-    Security:
-      
+      Type: application    
   AppELBTargetGroupBlue:
     Type: AWS::ElasticLoadBalancingV2::TargetGroup
     Properties:
@@ -278,7 +271,7 @@ Parameters:
   ASGGreenSize:
     Description: Desired number of EC2 instances in green Auto Scaling Group
     Type: Number
-    Default: 0
+    Default: 1
   ASGBlueSize:
     Description: Desired number of EC2 instances in green Auto Scaling Group
     Type: Number
@@ -286,7 +279,7 @@ Parameters:
   ASGSizeMinSize:
     Description: Min number of EC2 instances in Auto Scaling Group
     Type: Number
-    Default: 0
+    Default: 1
   ASGSizeMaxSize:
     Description: Max number of EC2 instances in Auto Scaling Group
     Type: Number
